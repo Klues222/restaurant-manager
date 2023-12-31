@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <style>
+        body{
+            background: linear-gradient(to right,#65CBF7,#B3A5FC);
+        }
+        .box{
+            width: 60%;
+            height: 450px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.8);
+            display: flex;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .left{
+            width: 65%;
+        }
+        .left>img {
+            display: block;
+            height: 100%;
+            width: 100%;
+            max-height: 100%;
+        }
+        .right{
+            width: 35%;
+            height: 100%;
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 10px 20px;
+        }
+        h1{
+            text-align: center;
+            padding-top: 45px;
+            margin-top: 0;
+
+        }
+        .inputItem{
+            height: 40px;
+            width: 60%;
+            padding-left: 20px;
+            border: none;
+            background: none;
+            outline: none;
+            border-bottom: 3px solid #B3A5FC;
+            font-size: 20px;
+            margin-top: 5px;
+            margin-left: 25px;
+        }
+        .but{
+            background: #f1f1f1 ;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            border: none;
+            height: 46px;
+            width: 30%;
+            font-size: 18px;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left">
+            <img src="images/hsr.png" alt="" >
+        </div>
+        <div class="right">
+            <h1>用户登陆</h1>
+            <span style="color:red;"></span>
+            <form action="UserLogin" method="post">
+                <input type="text" class="inputItem" placeholder="用户名" name="aName"/><br>
+                <input type="password" class="inputItem" placeholder="密码" name="aPassword"/><br>
+                <input type="submit" value="登录" class="but"/>
+                <input type="button" value="注册" class="but"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

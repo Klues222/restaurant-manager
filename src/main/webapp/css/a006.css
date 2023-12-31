@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.admin-main {
+    width: 98%;
+    height: 96%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    /* 取消块限制 */
+    display: flex;
+    margin: 1%;
+}
+
+
+/* 导航栏 */
+
+.navigation-bar {
+    width: 20%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.admin-information {
+    background-color: pink;
+    height: 50px;
+}
+
+.admin-information>.adminName {
+    background-color: ivory;
+    position: absolute;
+    padding: 10px;
+    top: 4px;
+    border-radius: 0 20px 20px 0;
+}
+
+.nav-li-div {
+    padding: 8px;
+}
+
+.nav-ul,
+.div-ul {
+    list-style-type: none;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.nav-ul>li {
+    margin: 5px;
+}
+
+.div-ul>li {
+    padding: 10px;
+    margin-left: 10px;
+    /* 子菜单弧度 */
+    border-radius: 0 20px 20px 0;
+}
+.ul_li>a{
+    color: #000000;
+    text-decoration: none;
+}
+.ul_li>a:hover{
+    font-size:24px;
+    color: #0e57d9;
+    line-height:36px;
+    text-decoration:none;
+}
+/* 功能模块 */
+
+.function-module {
+    width: 80%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+.module-index {
+    /* 功能模块索引 */
+    background-color: #FFFFFF;
+    height: 50px;
+}
+
+#mIndex {
+    float: left;
+    position: relative;
+    padding: 10px;
+    top: 4px;
+}
+.main_list{
+    margin-top: 10px;
+    height: 90%;
+    width: 100%;
+    overflow: auto;
+}
+
+.admin-permiss {
+    /* 权限div */
+    float: right;
+    position: relative;
+    padding: 10px;
+    top: 4px;
+    /* 设置弧度 */
+    border-radius: 20px 0 0 20px;
+    background-color: pink;
+}
+table{
+    border-collapse: collapse;
+}
+
+#new_list{
+    width: auto;
+    margin: auto;
+}
+.inputItem{
+    height: 40px;
+    width: 100%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+#box{
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+
+}
+.scrip{
+    height: 80px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 20px;
+    resize: none; /*防止调整大小*/
+    border: none; /*去除边框*/
+    outline: none; /*去除外部线条*/
+}
+.inputItem1{
+    height: 40px;
+    width: 30%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
